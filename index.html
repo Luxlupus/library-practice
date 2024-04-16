@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>MY LIBRARY</h1>
+
+    <section id="newBook">
+        <button id="newBookBtn" type="button" class="button">
+            ADD NEW BOOK
+        </button>
+    </section>
+
+    <div id="formContainer" class="hidden">
+        <div id="forms" class="hidden">    
+            <form>
+                <div id="authorInput"> 
+                    <div class="align">
+                        <div>
+                            <label for="author">AUTHOR</label>
+                        </div>
+                        <div>
+                            <input class="inputBox" type="text" id="author" name="author">
+                        </div>
+                    </div>
+                    <div class="align">
+                        <div>
+                            <label for="title">TITLE</label>
+                        </div>
+                        <div>
+                            <input class="inputBox" type="text" id="title" name="title">
+                        </div>
+                    </div>
+                </div>    
+                <div id="pagesInput">
+                    <div class="align">
+                        <div>
+                            <label for="pages">PAGES</label>
+                        </div>
+                        <div>
+                            <input class="inputBox" type="number" id="pages" name="pages" min="1" placeholder="1">
+                        </div>
+                    </div>
+                </div>
+                <div id="readInput">
+                    <div class="align">
+                        <div>
+                            <label for="read">READ</label>
+                        </div>
+                        <div>    
+                            <input class="inputBox" type="checkbox" id="read" name="read">
+                        </div>
+                    </div>
+                </div>
+                <div id="submitBtn">
+                    <div>
+                        <button id="btn" type="button" class="button" value="Add Book">Add</button>
+                    </div>
+                </div>     
+            </form>       
+        </div>
+    </div>    
+
+    <section id="showcase">
+
+    </section>
+</body>
+</html>
